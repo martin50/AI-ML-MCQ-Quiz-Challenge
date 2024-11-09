@@ -1,0 +1,204 @@
+import time
+
+print("Welcome to the 🌍 World of AI & ML MCQ Quiz Challenge! 🚀")
+time.sleep(1)
+
+play = input("Do you want to play? (yes/no) ").lower()
+
+if play != "yes":
+    print("Alright! Maybe next time. 👋")
+    quit()
+else:
+    print("Awesome! Let's get started! 💪")
+    time.sleep(1)
+
+score = 0
+
+print('Who is considered the "father of Artificial Intelligence"? 🤔')
+print("A) Alan Turing")
+print("B) John McCarthy")
+print("C) Geoffrey Hinton")
+print("D) Elon Musk")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "b":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('What does "ML" stand for in the context of AI? 🤔')
+print("A) Machine Logic")
+print("B) Machine Learning")
+print("C) Meta Learning")
+print("D) Matrix Learning")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "b":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('What is the primary function of a Convolutional Neural Network (CNN)? 🤔')
+print("A) Speech Recognition")
+print("B) Natural Language Processing")
+print("C) Image Recognition")
+print("D) Reinforcement Learning")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "c":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('In which year was the term "Artificial Intelligence" first coined? 🤔')
+print("A) 1945")
+print("B) 1956")
+print("C) 1961")
+print("D) 1980")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "b":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('Which type of machine learning involves learning from labeled data? 🤔')
+print("A) Supervised Learning")
+print("B) Unsupervised Learning")
+print("C) Reinforcement Learning")
+print("D) Transfer Learning")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "a":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('What does NLP stand for in AI? 🤔')
+print("A) Neural Logic Processing")
+print("B) Network Learning Program")
+print("C) Numerical Language Prediction")
+print("D) Natural Language Processing")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "d":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('Who is credited with the development of GPT (Generative Pre-trained Transformer)? 🤔')
+print("A) Facebook")
+print("B) Google")
+print("C) OpenAI")
+print("D) Microsoft")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "c":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('What is a key difference between supervised and unsupervised learning? 🤔')
+print("A) Supervised learning uses unlabeled data; unsupervised learning uses labeled data")
+print("B) Supervised learning uses labeled data; unsupervised learning uses unlabeled data.")
+print("C) Both use labeled data")
+print("D) Both use unlabeled data")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "b":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('Which of the following is an example of reinforcement learning?  🤔')
+print("A) Predicting house prices")
+print("B) Training a robot to play chess by rewarding good moves")
+print("C) Classifying emails as spam or not spam")
+print("D) Translating languages automatically")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "b":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print('WWhat is the Turing Test designed to assess?  🤔')
+print("A) The speed of a computer system")
+print("B) The accuracy of an algorithm")
+print("C) A machine's ability to perform tasks without human input")
+print("D) A machine's ability to exhibit intelligent behavior equivalent to a human")
+
+ans = input("Your answer (A/B/C/D): ").lower()
+
+if ans == "d":
+    print("Yay! 🎉 Correct! You've got 1 point! 🏆")
+    score += 1
+else:
+    print("Oops! ❌  Incorrect better luck next time")
+
+print("\n" + "-" * 70 + "\n")
+time.sleep(1)
+
+print(f"Quiz Completed! You scored {score} out of 10 point(s) 🏆")
+percentage = (score/10)*100
+print(f"That's a score of {percentage:.1f}%!")
+
+
+if percentage <= 33:
+    print("🌱 Keep Growing! 🚀")
+    print(f"Your performance is Below Average 🌟 ")
+elif 33 <= percentage < 55:
+    print("🎯 On the Right Track! 👏")
+    print(f"Your performance is Average 👍")
+elif 55 <= percentage < 75:
+    print("🔥 Great job! 💪")
+    print(f"Your performance is Good 🏅")
+else:
+    print("🚀 Exceptional Work! 🚀")
+    print(f"Your performance is Best 🏆")
