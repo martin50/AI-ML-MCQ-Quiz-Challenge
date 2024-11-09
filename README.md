@@ -1,1 +1,1 @@
-# AI-ML-MCQ-Quiz-Challenge
+"Welcome to the AI & ML MCQ Quiz Challenge! 🚀 Test your knowledge on Artificial Intelligence and Machine Learning through a series of engaging multiple-choice questions. From foundational concepts to advanced techniques, this Python-powered quiz game will help you explore key topics in a fun, interactive way. Score points, learn, and see if you can achieve a top-tier performance! 🏆 Ready to dive into the world of AI & ML? Let the challenge begin!"
